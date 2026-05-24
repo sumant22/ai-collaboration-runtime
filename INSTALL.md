@@ -42,26 +42,26 @@ No re-uploading when you update a skill — just push to GitHub.
 
 ### Step 2 — Your Raw Links
 
-Replace `YOUR_USERNAME` with your GitHub username.
+Replace `sumant22` with your GitHub username.
 These links never change even when you update the files.
 
 ```
 Skills:
-https://raw.githubusercontent.com/YOUR_USERNAME/ai-collaboration-runtime/main/skills/reasoning/SKILL.md
-https://raw.githubusercontent.com/YOUR_USERNAME/ai-collaboration-runtime/main/skills/planning/SKILL.md
-https://raw.githubusercontent.com/YOUR_USERNAME/ai-collaboration-runtime/main/skills/review/SKILL.md
-https://raw.githubusercontent.com/YOUR_USERNAME/ai-collaboration-runtime/main/skills/verification/SKILL.md
+https://raw.githubusercontent.com/sumant22/ai-collaboration-runtime/main/skills/reasoning/SKILL.md
+https://raw.githubusercontent.com/sumant22/ai-collaboration-runtime/main/skills/planning/SKILL.md
+https://raw.githubusercontent.com/sumant22/ai-collaboration-runtime/main/skills/review/SKILL.md
+https://raw.githubusercontent.com/sumant22/ai-collaboration-runtime/main/skills/verification/SKILL.md
 
 Protocols:
-https://raw.githubusercontent.com/YOUR_USERNAME/ai-collaboration-runtime/main/protocols/task-request.md
-https://raw.githubusercontent.com/YOUR_USERNAME/ai-collaboration-runtime/main/protocols/task-response.md
+https://raw.githubusercontent.com/sumant22/ai-collaboration-runtime/main/protocols/task-request.md
+https://raw.githubusercontent.com/sumant22/ai-collaboration-runtime/main/protocols/task-response.md
 
 Decision Engine:
-https://raw.githubusercontent.com/YOUR_USERNAME/ai-collaboration-runtime/main/decision-engine/confidence-rules.md
+https://raw.githubusercontent.com/sumant22/ai-collaboration-runtime/main/decision-engine/confidence-rules.md
 
 Workflows:
-https://raw.githubusercontent.com/YOUR_USERNAME/ai-collaboration-runtime/main/collaboration/claude-implements-chatgpt-reviews.md
-https://raw.githubusercontent.com/YOUR_USERNAME/ai-collaboration-runtime/main/collaboration/chatgpt-review-claude.md
+https://raw.githubusercontent.com/sumant22/ai-collaboration-runtime/main/collaboration/claude-implements-chatgpt-reviews.md
+https://raw.githubusercontent.com/sumant22/ai-collaboration-runtime/main/collaboration/chatgpt-review-claude.md
 ```
 
 ### Step 3 — Load In Claude (Implementer)
@@ -71,9 +71,9 @@ Paste this at the start of any Claude chat:
 ```
 Please read and load these skill files before we begin:
 
-Reasoning: https://raw.githubusercontent.com/YOUR_USERNAME/ai-collaboration-runtime/main/skills/reasoning/SKILL.md
-Planning: https://raw.githubusercontent.com/YOUR_USERNAME/ai-collaboration-runtime/main/skills/planning/SKILL.md
-Task Response Protocol: https://raw.githubusercontent.com/YOUR_USERNAME/ai-collaboration-runtime/main/protocols/task-response.md
+Reasoning: https://raw.githubusercontent.com/sumant22/ai-collaboration-runtime/main/skills/reasoning/SKILL.md
+Planning: https://raw.githubusercontent.com/sumant22/ai-collaboration-runtime/main/skills/planning/SKILL.md
+Task Response Protocol: https://raw.githubusercontent.com/sumant22/ai-collaboration-runtime/main/protocols/task-response.md
 
 Your role is: Implementer
 Confirm when loaded. Then wait for my task.
@@ -86,9 +86,9 @@ Paste this at the start of any ChatGPT chat:
 ```
 Please read and load these skill files before we begin:
 
-Review Skill: https://raw.githubusercontent.com/YOUR_USERNAME/ai-collaboration-runtime/main/skills/review/SKILL.md
-Verification Skill: https://raw.githubusercontent.com/YOUR_USERNAME/ai-collaboration-runtime/main/skills/verification/SKILL.md
-Confidence Rules: https://raw.githubusercontent.com/YOUR_USERNAME/ai-collaboration-runtime/main/decision-engine/confidence-rules.md
+Review Skill: https://raw.githubusercontent.com/sumant22/ai-collaboration-runtime/main/skills/review/SKILL.md
+Verification Skill: https://raw.githubusercontent.com/sumant22/ai-collaboration-runtime/main/skills/verification/SKILL.md
+Confidence Rules: https://raw.githubusercontent.com/sumant22/ai-collaboration-runtime/main/decision-engine/confidence-rules.md
 
 Your role is: Reviewer
 Confirm when loaded. Then wait for the response to review.

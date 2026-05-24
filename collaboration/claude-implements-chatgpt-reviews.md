@@ -60,9 +60,9 @@ Open Claude. If using GitHub, paste this as your first message:
 ```
 Please read and load these skill files before we begin:
 
-Reasoning: https://raw.githubusercontent.com/YOUR_USERNAME/ai-collaboration-runtime/main/skills/reasoning/SKILL.md
-Planning: https://raw.githubusercontent.com/YOUR_USERNAME/ai-collaboration-runtime/main/skills/planning/SKILL.md
-Task Response Protocol: https://raw.githubusercontent.com/YOUR_USERNAME/ai-collaboration-runtime/main/protocols/task-response.md
+Reasoning: https://raw.githubusercontent.com/sumant22/ai-collaboration-runtime/main/skills/reasoning/SKILL.md
+Planning: https://raw.githubusercontent.com/sumant22/ai-collaboration-runtime/main/skills/planning/SKILL.md
+Task Response Protocol: https://raw.githubusercontent.com/sumant22/ai-collaboration-runtime/main/protocols/task-response.md
 
 Confirm when loaded. Then wait for my task.
 ```
@@ -98,9 +98,9 @@ Open ChatGPT. Paste this as your first message:
 ```
 Please read and load these skill files before we begin:
 
-Review Skill: https://raw.githubusercontent.com/YOUR_USERNAME/ai-collaboration-runtime/main/skills/review/SKILL.md
-Verification Skill: https://raw.githubusercontent.com/YOUR_USERNAME/ai-collaboration-runtime/main/skills/verification/SKILL.md
-Confidence Rules: https://raw.githubusercontent.com/YOUR_USERNAME/ai-collaboration-runtime/main/decision-engine/confidence-rules.md
+Review Skill: https://raw.githubusercontent.com/sumant22/ai-collaboration-runtime/main/skills/review/SKILL.md
+Verification Skill: https://raw.githubusercontent.com/sumant22/ai-collaboration-runtime/main/skills/verification/SKILL.md
+Confidence Rules: https://raw.githubusercontent.com/sumant22/ai-collaboration-runtime/main/decision-engine/confidence-rules.md
 
 Confirm when loaded. Then wait for the response to review.
 ```
